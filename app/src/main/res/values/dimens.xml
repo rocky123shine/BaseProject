@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="px_510">510px</dimen>
+    <dimen name="px_432">432px</dimen>
+    <dimen name="px_115">115px</dimen>
+    <dimen name="px_102">102px</dimen>
+    <dimen name="px_20">20px</dimen>
+    <dimen name="px_126">126px</dimen>
+    <dimen name="px_32">32px</dimen>
+    <dimen name="px_430">430px</dimen>
+    <dimen name="px_15">15px</dimen>
+    <dimen name="px_46">46px</dimen>
+    <dimen name="px_10">10px</dimen>
+    <dimen name="px_40">40px</dimen>
+    <dimen name="px_43">43px</dimen>
+    <dimen name="px_29">29px</dimen>
+    <dimen name="px_52">52px</dimen>
+    <dimen name="px_24">24px</dimen>
+    <dimen name="px_35">35px</dimen>
+    <dimen name="px_30">30px</dimen>
+    <dimen name="px_36">36px</dimen>
+    <dimen name="px_75">75px</dimen>
+    <dimen name="px_150">150px</dimen>
+</resources>

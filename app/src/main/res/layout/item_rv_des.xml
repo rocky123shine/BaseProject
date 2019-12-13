@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#888"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载刷新的使用\n
+1.首先设置布局管理器，更具不同情况设置不同的布局管理器\n
+1.1在布局管理器中，如果单纯只有一种布局，直接new 即可\n
+1.2多种布局的话 调用 gridLayoutManager.setSpanSizeLookup(),在return的时候 如果有加载更多则最后一个pos位置item要留给footview并且宽要充满屏幕
+\n1.3 其他列表数据 根据pos位置 判断实体类的类型 返回一个item占的spanCount\n
+2。配置RecyclerConfig\n
+2.1 具体的数据列匹配具体的holder 并绑定 如  .bind(RockyStoreModel.GoodsListBean.class, GoodsListHolder.class)\n
+2.2设置具体的布局管理器 设置是否加载和刷新\n
+2.3 绑定config         buildConfig(builder.build());\n
+3初始化SwipeRefreshLayout\n
+4初始化RockyLoadRV\n
+5.请求数据
+"
+        android:textColor="#fff"
+        android:textSize="50px" />
+</com.zhy.autolayout.AutoLinearLayout>

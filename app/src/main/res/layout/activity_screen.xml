@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+
+    去清单文件设置自己需要的参数
+             <meta-data
+                android:name="design_width"
+                android:value="720" />
+            <meta-data
+                android:name="design_height"
+                android:value="1080" />
+    -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500px"
+        android:text="屏幕适配需要父布局选择相应的Autolayout即可\n默认屏幕适宽高为1080*1920\n要想按照设计图可以取app清单文件下设置宽高\n"
+        android:textColor="#000"
+        android:textSize="50px" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:background="#110000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="线性布局"
+            android:textColor="#fff"
+            android:textSize="50px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.widget.AutoRadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:background="#330000"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="RadioGroup"
+            android:textColor="#fff"
+            android:textSize="50px" />
+
+        <RadioButton
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="RadioGroup"
+            android:textColor="#fff"
+            android:textSize="50px" />
+
+        <RadioButton
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="RadioGroup"
+            android:textColor="#fff"
+            android:textSize="50px" />
+    </com.zhy.autolayout.widget.AutoRadioGroup>
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200px"
+        android:background="#550000">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FrameLayout"
+            android:textColor="#fff"
+            android:textSize="50px" />
+    </com.zhy.autolayout.AutoFrameLayout>
+</com.zhy.autolayout.AutoRelativeLayout>
